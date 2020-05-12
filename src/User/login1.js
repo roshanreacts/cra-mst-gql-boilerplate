@@ -1,20 +1,22 @@
 import React, { Fragment, useState } from "react";
 import Button from "../Components/Button";
 import "./login.css";
-import Header from "../Components/header";
 
 const Login = (props) => {
   return (
     <Fragment>
-      <Header>
-        <div>This is Header</div>
-      </Header>
-      <div className="btn-center padding">
-        <div>This is Login</div>
+      {/* <div className="btn-center"> */}
+      <div className="login-btns">
         <Button
-          name="Login"
+          name="Counter"
           onClick={() => {
-            props.signin();
+            props.signin("counter");
+          }}
+        />
+        <Button
+          name="Todo"
+          onClick={() => {
+            props.signin("todo");
           }}
         />
       </div>

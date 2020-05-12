@@ -2,8 +2,11 @@
   font-size: 25px;
   border-bottom: 1px solid white;
 }
-.btn-center {
-  text-align: center;
+.login-btns {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
 }
 .padding {
   padding: 100px;

@@ -1,0 +1,47 @@
+.btn-center {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 250px;
+  margin: 50px auto;
+  height: 250px;
+  text-align: center;
+  position: relative;
+}
+
+.cnt-margin {
+  margin: 15px;
+  font-size: 45px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.logbtn-center {
+  text-align: center;
+}
+.actions {
+  width: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.bgcolor1 {
+  background-color: #4caf50;
+  padding: 32px;
+  font-size: 20px;
+  border: none;
+  border-radius: 0;
+}
+.bgcolor2 {
+  background-color: #008cba;
+  padding: 32px;
+  font-size: 20px;
+  border: none;
+  border-radius: 0;
+}
+.bgcolor3 {
+  background-color: #f44336;
+  padding: 32px 31px;
+  font-size: 20px;
+  border: none;
+  border-radius: 0;
+}

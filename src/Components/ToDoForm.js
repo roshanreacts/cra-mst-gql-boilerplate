@@ -1,7 +1,8 @@
-import { react, Fragment } from "React";
+import React, { Fragment } from "react";
 import TextField from "@material-ui/core/TextField";
+import Button from "./Button";
 
-const TodoForm = () => {
+const TodoForm = (props) => {
   return (
     <Fragment>
       <form>
@@ -10,8 +11,9 @@ const TodoForm = () => {
           placeholder="add todo"
           margin="normal"
         ></TextField>
+        <Button name="Go Back" onClick={() => props.signout("login")} />
       </form>
     </Fragment>
   );
 };
-export default TodoForm.js;
+export default TodoForm;
