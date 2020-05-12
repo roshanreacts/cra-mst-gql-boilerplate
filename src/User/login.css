@@ -2,3 +2,9 @@
   font-size: 25px;
   border-bottom: 1px solid white;
 }
+.btn-center {
+  text-align: center;
+}
+.padding {
+  padding: 100px;
+}

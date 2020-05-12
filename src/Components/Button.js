@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import "./Button.css";
 
 const Button = (props) => (
-  <button onClick={props.onClick} className="pri-btn">
+  <button onClick={props.onClick} className={"pri-btn " + props.className}>
     {props.name}
   </button>
 );

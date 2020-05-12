@@ -1,0 +1,23 @@
+.btn-center {
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 350px;
+}
+
+.cnt-margin {
+  margin: 15px;
+}
+
+.logbtn-center {
+  text-align: center;
+}
+.bgcolor1 {
+  background-color: #4caf50;
+}
+.bgcolor2 {
+  background-color: #008cba;
+}
+.bgcolor3 {
+  background-color: #f44336;
+}
